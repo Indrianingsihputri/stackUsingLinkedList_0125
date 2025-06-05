@@ -90,7 +90,7 @@ int main()
         cout << "4. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
-    }
+    
 
     switch (choice) 
     {
@@ -117,4 +117,6 @@ int main()
     }
 
     cout << endl;
+}
+    return 0; // Return 0 to indicate successful execution
 }
