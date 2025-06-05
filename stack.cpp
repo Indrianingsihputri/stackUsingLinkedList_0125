@@ -53,4 +53,13 @@ public:
         cout << "Popped value: " << top->data << endl;
         top = top->next; // Update the top pointer to the next node
     }
+
+        //peek/top operation: return the value of the topmost element without removing it
+    void peek() 
+    {
+        if (IsEmpty()) 
+        {
+            cout << "List is empty " << endl;
+            return; //if the stack is empty, print a message and return
+        }
 }
