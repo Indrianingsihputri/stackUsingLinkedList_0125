@@ -14,3 +14,8 @@ public:
 };
 //Stack class
 class Stack 
+{
+Private:
+    Node *top;//pointer to the top node of the stack
+
+}
