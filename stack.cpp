@@ -35,4 +35,10 @@ public:
         cout << "Push value: " << value << endl; //
         return value;
     }
+
+    //isEmpty operation: check if the stack is empty
+    bool IsEmpty()
+    {
+        return top == NULL; // return true if the top pointer is null, indicating an empty stack
+    }
 }
