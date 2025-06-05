@@ -53,6 +53,7 @@ public:
         }
         cout << "Popped value: " << top->data << endl;
         top = top->next; // Update the top pointer to the next node
+        temp = NULLptr; //free the memory of the popped node
     }
 
         //peek/top operation: return the value of the topmost element without removing it
