@@ -115,4 +115,6 @@ int main()
     default:
         cout << "Invalid choice, try again." << endl;
     }
+
+    cout << endl;
 }
