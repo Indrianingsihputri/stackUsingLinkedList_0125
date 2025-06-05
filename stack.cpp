@@ -93,11 +93,15 @@ int main()
     }
 
     switch (choice) 
-        {
-        case 1:
-            cout << "Enter value to push: ";
-            cin >> value;
-            stack.push(value); //Push the entered value onto the stack
-            break;
-        }
+    {
+    case 1:
+        cout << "Enter value to push: ";
+        cin >> value;
+        stack.push(value); //Push the entered value onto the stack
+        break;
+
+    case 2:
+        stack.pop(); //Pop the topmost element from the stack
+        break;
+    }
 }
