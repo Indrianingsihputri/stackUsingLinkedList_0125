@@ -41,4 +41,16 @@ public:
     {
         return top == NULL; // return true if the top pointer is null, indicating an empty stack
     }
+
+        //pop operation: remove the top element from the stack
+    void pop()
+    {
+        if (IsEmpty()) 
+        {
+            cout << "Stack is empty, " << endl;
+            return; // if the stack is empty, print a message and return
+        }
+        cout << "Popped value: " << top->data << endl;
+        top = top->next; // Update the top pointer to the next node
+    }
 }
