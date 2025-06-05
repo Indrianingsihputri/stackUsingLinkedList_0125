@@ -45,6 +45,7 @@ public:
         //pop operation: remove the top element from the stack
     void pop()
     {
+        Node *temp = top; // Create a temporary pointer to the top node
         if (IsEmpty()) 
         {
             cout << "Stack is empty, " << endl;
@@ -57,7 +58,6 @@ public:
         //peek/top operation: return the value of the topmost element without removing it
     void peek() 
     {
-        Node *temp = top; // Create a temporary pointer to the top node
         if (IsEmpty()) 
         {
             cout << "List is empty " << endl;
